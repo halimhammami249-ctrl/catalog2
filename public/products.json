@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Laptop Pro",
+    "price": 1200,
+    "image": "/images/laptop.jpg",
+    "description": "High performance laptop"
+  },
+  {
+    "name": "iPhone 14",
+    "price": 900,
+    "image": "/images/iphone.jpg",
+    "description": "Latest Apple phone"
+  },
+  {
+    "name": "Headphones",
+    "price": 150,
+    "image": "/images/headphones.jpg",
+    "description": "Noise cancelling headset"
+  },
+  {
+    "name": "Smart Watch",
+    "price": 200,
+    "image": "/images/watch.jpg",
+    "description": "Fitness tracking watch"
+  },
+  {
+    "name": "Tablet S",
+    "price": 400,
+    "image": "/images/tablet.jpg",
+    "description": "Lightweight tablet"
+  }
+]
