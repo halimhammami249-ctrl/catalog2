@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: halimhammami249-ctrl/catalog2
+  branch: main
+
+media_folder: 'public/images'
+public_folder: '/images'
+
+collections:
+  - name: 'products'
+    label: 'Products'
+    files:
+      - file: 'public/products.json'
+        label: 'Products'
+        name: 'products'
+        fields:
+          - { name: 'id', label: 'ID', widget: 'number' }
+          - { name: 'name', label: 'Name', widget: 'string' }
+          - { name: 'price', label: 'Price', widget: 'number' }
+          - { name: 'image', label: 'Image', widget: 'image' }
+          - { name: 'description', label: 'Description', widget: 'text' }
